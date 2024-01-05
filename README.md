@@ -16,7 +16,10 @@ The frontend of this project is built using React.js.
 ```bash
 cd frontend
 npm install
+touch .env
 ```
+
+Copy contents from `.env.example` to `.env`
 
 ### Usage
 
@@ -39,7 +42,10 @@ The backend of this project is built using Node.js and Express.js.
 ```bash
 cd backend
 npm install
+touch .env
 ```
+
+Copy contents from `.env.example` to `.env`
 
 ### Usage
 
