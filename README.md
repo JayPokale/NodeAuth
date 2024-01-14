@@ -56,7 +56,6 @@ npm run dev
 This command will start the Node.js + Express.js server for the backend.
 
 ### API
-# My Node App API Testing
 │
 ├── Auth
 │   ├── POST http://localhost:3000/auth/signup
