@@ -55,7 +55,9 @@ npm run dev
 
 This command will start the Node.js + Express.js server for the backend.
 
-### API
+### API Endpoints
+List and describe the main API endpoints of your application.
+```js
 │
 ├── Auth
 │   ├── POST http://localhost:3000/auth/signup
@@ -83,16 +85,17 @@ This command will start the Node.js + Express.js server for the backend.
 │   └── DELETE http://localhost:3000/users
 │       └── Header: { key }
 │
-├── Admin
-│   ├── GET http://localhost:3000/admin
-│   │   └── Header: { key }
-│   ├── GET http://localhost:3000/admin/{id}
-│   │   └── Header: { key }
-│   ├── PUT http://localhost:3000/admin/{id}
-│   │   ├── Header: { key }
-│   │   └── Body: {
-│   │               "name": "Changed Name",
-│   │               "email": "changed@example.com",
-│   │             }
-│   └── DELETE http://localhost:3000/admin/{id}
-│       └── Header: { key }
+└── Admin
+    ├── GET http://localhost:3000/admin
+    │   └── Header: { key }
+    ├── GET http://localhost:3000/admin/{id}
+    │   └── Header: { key }
+    ├── PUT http://localhost:3000/admin/{id}
+    │   ├── Header: { key }
+    │   └── Body: {
+    │               "name": "Changed Name",
+    │               "email": "changed@example.com",
+    │             }
+    └── DELETE http://localhost:3000/admin/{id}
+        └── Header: { key }
+```
